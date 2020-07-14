@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title >Contact me </title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <br>
+  <h2 class="h2">My Contact Information</h2>
+  <address>
+        <table cellspacing="5">
+      <tr>
+        <td>Email : </td>
+        <td>l181062@lhr.nu.edu.pk</td>
+      </tr>
+      <tr>
+        <td>Contact number</td>
+        <td>0333-4909090</td>
+      </tr>
+    </table>
+  </address>
+  <hr>
+  <br>
+  <form action="mailto:l181062@lhr.nu.edu.pk" oninput="x.value=parseInt(a.value+100)">
+  <fieldset>
+    <center>
+      <legand >
+        <h3 class="h3">Fill the form below:</h3>
+      </legand>
+    </center>
+
+    <table cellspacing="5px" width="750px">
+      <tr>
+        <td> <label for="fname">First Name : </label></td>
+        <td> <input type="text" name="fname" id="fname" placeholder="john"  required></td>
+      </tr>
+      <tr>
+        <td><label for="lname">Last Name : </label></td>
+        <td><input type="text" name="lname" id="lname" placeholder="wick">
+        </td>
+      </tr>
+      <tr>
+        <td> <label for="email">Enter your email: </label></td>
+        <td>
+          <input type="email" name="email" id="email" placeholder="abc@gmail.com" required>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="Gender">Gender :</label> </td>
+        <td>
+          <label for="male">Male</label>
+          <input type="radio" name="gen" id="male" value="male">
+          <br>
+          <label for="male">Female</label>
+          <input type="radio" name="gen" id="female" value="female">
+        </td>
+      </tr>
+      <tr>
+        <td style="width:35%"> <label>What do you want us to develop : (you can choose multiple options)</label></td>
+        <td>
+          <select name="dev" size="4" multiple>
+            <option value="Wordpress-website">Wordpress-website</option>
+            <option value="Anderoid App">Anderoid App</option>
+            <option value="Ios app">Ios App</option>
+            <option value="game development">Game development</option>
+          </select>
+        </td>
+      </tr>
+<tr>
+  <td>  <label class="ran" for="range">Your budget range in RS: </label></td>
+  <td>
+    <input type="range" name="budget" id="a" value="50"> =
+    <output class="outp" name="x" for="a"></output>
+  </td>
+</tr>
+<tr>
+  <td><label for="requirment">Upload attachement for requirment :</label></td>
+  <td>
+    <input type="file" name="file" id="file">
+  </td>
+</tr>
+<tr>
+  <td><label for="message">Any message :</label></td>
+  <td>
+    <textarea name="name" rows="4" cols="30"></textarea>
+  </td>
+</tr>
+    </table>
+
+  </fieldset>
+
+</form>
+
+</body>
+
+</html>
